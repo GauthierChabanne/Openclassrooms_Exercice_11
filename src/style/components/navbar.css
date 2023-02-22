@@ -1,0 +1,15 @@
+.navbar {
+  color: red;
+  display: flex;
+  align-items: center;
+}
+.navbar img {
+  margin: 0 100vh 0 4vh;
+}
+.navbar p {
+  margin: 0 6vh;
+  font-size: 20px;
+}
+.navbar p .selected {
+  text-decoration: underline;
+}/*# sourceMappingURL=navbar.css.map */
