@@ -1,0 +1,23 @@
+.error-page {
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.error-page img {
+  margin: 3rem 0;
+  width: 25rem;
+}
+.error-page p {
+  font-size: 24px;
+  letter-spacing: 0.1rem;
+  margin-bottom: 10rem;
+}
+.error-page__link {
+  color: red;
+  text-decoration: none;
+}
+.error-page__link:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=error404.css.map */

@@ -1,0 +1,27 @@
+.error-page {
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  & img{
+    margin: 3rem 0;
+    width: 25rem;
+  }
+
+  & p {
+    font-size: 24px;
+    letter-spacing: 0.1rem;
+    margin-bottom: 10rem;
+  }
+
+  &__link{
+    color: red;
+    text-decoration: none;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}

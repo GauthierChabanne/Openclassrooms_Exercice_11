@@ -1,0 +1,22 @@
+.header {
+  color: red;
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+}
+.header img {
+  margin-left: 8vh;
+  margin-right: 110vh;
+}
+.header__link {
+  font-size: 20px;
+  margin: 0 2vh;
+  text-decoration: none;
+  color: red;
+}
+.header__link .selected {
+  text-decoration: underline;
+}
+.header__link:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=header.css.map */

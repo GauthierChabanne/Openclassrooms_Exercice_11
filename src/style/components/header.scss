@@ -1,0 +1,26 @@
+.header{
+  color: red;
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+
+  & img{
+    margin-left: 8vh;
+    margin-right: 110vh;
+  }
+
+  &__link{
+    font-size: 20px;
+    margin: 0 2vh;
+    text-decoration: none;
+    color: red;
+
+    & .selected {
+        text-decoration: underline;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

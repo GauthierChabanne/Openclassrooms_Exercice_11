@@ -1,6 +1,15 @@
+import Banner from "../components/Banner"
+import homeBannerImage from "../assets/home-banner.png"
+import '../style/pages/home.css'
+
 function Home() {
   return (
-    <h1>Page Principale</h1>
+    <section className="banner-part">
+      <Banner
+        img = {homeBannerImage}
+      />
+      <p>Chez vous, partout et ailleurs</p>
+    </section>
   );
 }
 

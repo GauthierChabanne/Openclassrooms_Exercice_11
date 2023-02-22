@@ -1,8 +1,11 @@
+import Banner from "../components/Banner"
+import infosBannerImage from "../assets/infos-banner.png";
+
 function Infos () {
   return(
-    <div>
-      <h1>Informations sur le site</h1>
-    </div>
+    <Banner
+      img = {infosBannerImage}
+    />
   )
 }
 

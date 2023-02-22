@@ -1,0 +1,15 @@
+.banner{
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 0;
+
+  &__img {
+    height: 12rem;
+    width: 90%;
+    border-radius: 20px;
+    object-fit: cover;
+    filter: brightness(80%);;
+  }
+}

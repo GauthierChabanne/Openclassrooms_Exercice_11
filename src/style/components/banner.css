@@ -1,0 +1,15 @@
+.banner {
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 0;
+}
+.banner__img {
+  height: 12rem;
+  width: 90%;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(80%);
+}/*# sourceMappingURL=banner.css.map */
