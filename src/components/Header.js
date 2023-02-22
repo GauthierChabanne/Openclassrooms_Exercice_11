@@ -6,8 +6,8 @@ function Header(){
   return(
     <header className='header'>
       <img src={logo} className='Kasa-logo' alt='logo' />
-      <NavLink to="/" className='header__link' exact activeClassName="selected">Accueil</NavLink>
-      <NavLink to="/infos" className='header__link' exact activeClassName="selected">A propos</NavLink>
+      <NavLink to="/" className='header__link'>Accueil</NavLink>
+      <NavLink to="/infos" className='header__link'>A propos</NavLink>
     </header>
   )
 }

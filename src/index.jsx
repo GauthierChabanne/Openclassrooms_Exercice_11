@@ -1,13 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './style/index.css';
-import Home from './pages/Home';
-import Infos from './pages/Infos';
-import AppartementView from './pages/AppartementView';
-import Error404 from './pages/Error404';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Header';
+import Routing from './components/Routing'
 import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,12 +12,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Infos" element={<Infos />} />
-        <Route path="/appartements" element={<AppartementView />} />
-        <Route path="*" element={<Error404 />} />
-      </Routes>
+      <Routing />
       <Footer />
     </Router>
   </React.StrictMode>
