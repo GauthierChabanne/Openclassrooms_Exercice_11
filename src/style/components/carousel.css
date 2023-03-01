@@ -1,0 +1,23 @@
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel__img {
+  width: 77.5rem;
+  height: 25.9rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.carousel__arrow {
+  cursor: pointer;
+  position: absolute;
+}
+.carousel .left {
+  left: 7rem;
+}
+.carousel .right {
+  right: 7rem;
+}/*# sourceMappingURL=carousel.css.map */

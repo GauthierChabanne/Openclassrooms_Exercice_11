@@ -1,0 +1,42 @@
+.cardInfos__mainInfos {
+  display: flex;
+  justify-content: space-between;
+  color: #FE605F;
+  margin: 1rem 6rem;
+}
+.cardInfos__mainInfos__appartementInfos header {
+  font-size: 42px;
+}
+.cardInfos__mainInfos__appartementInfos p {
+  margin: 0.5rem 0;
+}
+.cardInfos__mainInfos__ownerInfos {
+  display: flex;
+  align-items: center;
+}
+.cardInfos__mainInfos__ownerInfos p {
+  margin: 0.5rem 0rem;
+  width: 6rem;
+  text-align: center;
+}
+.cardInfos__mainInfos__ownerInfos img {
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 4rem;
+}
+.cardInfos__secondaryInfos {
+  margin: 1rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardInfos__secondaryInfos__tags {
+  display: flex;
+}
+.cardInfos__tertiaryInfos {
+  margin: 1rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=appartementView.css.map */

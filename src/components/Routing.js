@@ -9,7 +9,7 @@ function Routing(){
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Infos" element={<Infos />} />
-        <Route path="/appartements" element={<AppartementView />} />
+        <Route path="/appartement/:appartementId" element={<AppartementView />} />
         <Route path="*" element={<Error404 />} />
     </Routes>
   )

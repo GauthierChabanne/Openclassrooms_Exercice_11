@@ -1,0 +1,54 @@
+.cardInfos {
+
+  &__mainInfos {
+    display: flex;
+    justify-content: space-between;
+    color: #FE605F;
+    margin: 1rem 6rem;
+
+    &__appartementInfos {
+      & header {
+        font-size: 42px;
+      }
+
+      & p {
+        margin: 0.5rem 0;
+      }
+    }
+
+    &__ownerInfos {
+      display: flex;
+      align-items: center;
+
+      & p {
+        margin: 0.5rem 0rem;
+        width: 6rem;
+        text-align: center;
+      }
+
+      & img{
+        border-radius: 50%;
+        object-fit: cover;
+        width: 4rem;
+      }
+    }
+  }
+
+  &__secondaryInfos {
+    margin: 1rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__tags {
+      display: flex;
+    }
+  }
+
+  &__tertiaryInfos {
+    margin: 1rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
