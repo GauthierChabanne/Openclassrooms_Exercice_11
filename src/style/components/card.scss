@@ -1,0 +1,22 @@
+.card {
+  position: relative;
+  border-radius: 20px;
+  margin: 1rem 2rem;
+  cursor: pointer;
+
+  &__cover {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    filter: brightness(80%);
+    border-radius: 20px;
+  }
+
+  &__title {
+    position: absolute;
+    width: 10rem;
+    color: white;
+    bottom: 1rem;
+    left: 1rem;
+  }
+}
