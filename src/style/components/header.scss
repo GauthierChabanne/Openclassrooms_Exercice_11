@@ -1,26 +1,51 @@
+@media (max-width: 600px) {
+ .Kasa-logo {
+    margin-left: 2vh;
+    width: 18vh;
+ }
+
+ .header__links {
+   margin-right: 1vh;
+
+    & .header__link {
+      margin: 0 1vh;
+      font-size: 18px;
+    }
+ }
+}
+
+@media (min-width: 600px) {
+  .Kasa-logo {
+      margin-left: 8vh;
+    }
+
+  .header__links {
+    margin-right: 12vh;
+
+    & .header__link {
+      margin: 0 2vh;
+      font-size: 20px;
+    }
+  }
+}
+
 .header{
   color: red;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin: 2rem 0;
 
-  & img{
-    margin-left: 8vh;
-    margin-right: 110vh;
-  }
-
   &__link{
-    font-size: 20px;
-    margin: 0 2vh;
     text-decoration: none;
     color: red;
-
-    & .selected {
-        text-decoration: underline;
-    }
 
     &:hover {
       text-decoration: underline;
     }
   }
+}
+
+.active {
+  text-decoration: underline;
 }

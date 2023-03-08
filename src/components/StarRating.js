@@ -18,8 +18,8 @@ function StarRating(props) {
 
   return(
     <React.Fragment>
-      {starsArray.map((star) => (
-        <img src={star} alt="étoile de notation"/>
+      {starsArray.map((star, index) => (
+        <img key={index} src={star} alt="étoile de notation"/>
       ))}
     </React.Fragment>
   )

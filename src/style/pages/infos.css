@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+  .dropdowns {
+    margin: 1rem 2rem 3rem 0;
+  }
+}
+@media (min-width: 600px) {
+  .dropdowns {
+    margin: 0 8rem;
+  }
+}
+.dropdowns .dropdown__infosPart {
+  height: -moz-fit-content;
+  height: fit-content;
+}/*# sourceMappingURL=infos.css.map */

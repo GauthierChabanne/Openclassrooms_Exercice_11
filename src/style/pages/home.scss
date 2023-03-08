@@ -1,9 +1,42 @@
-.banner-part {
-  & p {
-    position: absolute;
-    top: 27%;
-    left: 38%;
-    color: white;
-    font-size: 36px;
+@media (max-width: 600px) {
+  .banner-text {
+    top: 19%;
+    left: 14%;
+    width: 14rem;
+    & p{
+      font-size: 26px;
+    }
   }
 }
+
+@media (min-width: 600px) {
+  .container {
+      margin: 0 4rem;
+
+      & .banner-text{
+        left: 27%;
+        top: 32%;
+        width: 50%;
+        min-width: 20rem;
+
+        & p {
+          font-size: 36px;
+        }
+      }
+  }
+}
+
+
+.banner-part {
+    & .banner-text {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      & p {
+          color: white;
+          margin: 0;
+          padding: 0;
+        }
+    }
+  }

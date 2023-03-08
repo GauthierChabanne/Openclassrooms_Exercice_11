@@ -1,14 +1,55 @@
+@media (max-width: 600px) {
+  .container {
+    margin: 1rem 1rem;
+  }
+  .container .cardInfos__mainInfos {
+    height: 7rem;
+  }
+  .container .cardInfos__mainInfos__appartementInfos header {
+    font-size: 30px;
+  }
+  .container .cardInfos__mainInfos__appartementInfos p {
+    margin: 0.5rem 0;
+    font-size: 16px;
+  }
+  .container .cardInfos__mainInfos__ownerInfos {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+  }
+  .container .cardInfos__secondaryInfos {
+    flex-direction: column;
+  }
+  .container .cardInfos__secondaryInfos__rating {
+    margin-top: 1.5rem;
+  }
+  .container .cardInfos__tertiaryInfos {
+    flex-direction: column;
+  }
+}
+@media (min-width: 600px) {
+  .container {
+    margin: 1rem 6rem;
+  }
+  .container .cardInfos__mainInfos__appartementInfos header {
+    font-size: 42px;
+  }
+  .container .cardInfos__mainInfos__appartementInfos p {
+    margin: 0.5rem 0;
+    font-size: 20px;
+  }
+  .container .cardInfos__secondaryInfos {
+    align-items: center;
+  }
+  .container .cardInfos__tertiaryInfos {
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
 .cardInfos__mainInfos {
   display: flex;
   justify-content: space-between;
   color: #FE605F;
-  margin: 1rem 6rem;
-}
-.cardInfos__mainInfos__appartementInfos header {
-  font-size: 42px;
-}
-.cardInfos__mainInfos__appartementInfos p {
-  margin: 0.5rem 0;
 }
 .cardInfos__mainInfos__ownerInfos {
   display: flex;
@@ -26,17 +67,14 @@
   width: 4rem;
 }
 .cardInfos__secondaryInfos {
-  margin: 1rem 6rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  margin: 1rem 0;
 }
 .cardInfos__secondaryInfos__tags {
   display: flex;
+  flex-wrap: wrap;
 }
 .cardInfos__tertiaryInfos {
-  margin: 1rem 6rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }/*# sourceMappingURL=appartementView.css.map */

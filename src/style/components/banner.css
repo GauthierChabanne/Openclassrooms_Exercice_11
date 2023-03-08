@@ -1,12 +1,27 @@
+@media (max-width: 600px) {
+  .banner {
+    margin: 3rem 0;
+    height: 6.9rem;
+  }
+  .banner__img {
+    height: 6.9rem;
+  }
+}
+@media (min-width: 600px) {
+  .banner {
+    margin: 5rem 0;
+    height: 13.9rem;
+  }
+  .banner__img {
+    height: 13.9rem;
+  }
+}
 .banner {
-  height: 12rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 5rem 0;
 }
 .banner__img {
-  height: 12rem;
   width: 90%;
   border-radius: 20px;
   -o-object-fit: cover;

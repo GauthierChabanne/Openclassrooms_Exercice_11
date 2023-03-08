@@ -1,7 +1,35 @@
-.banner-part p {
+@media (max-width: 600px) {
+  .banner-text {
+    top: 19%;
+    left: 14%;
+    width: 14rem;
+  }
+  .banner-text p {
+    font-size: 26px;
+  }
+}
+@media (min-width: 600px) {
+  .container {
+    margin: 0 4rem;
+  }
+  .container .banner-text {
+    left: 27%;
+    top: 32%;
+    width: 50%;
+    min-width: 20rem;
+  }
+  .container .banner-text p {
+    font-size: 36px;
+  }
+}
+.banner-part .banner-text {
   position: absolute;
-  top: 27%;
-  left: 38%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-part .banner-text p {
   color: white;
-  font-size: 36px;
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=home.css.map */

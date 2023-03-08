@@ -6,8 +6,10 @@ function Header(){
   return(
     <header className='header'>
       <img src={logo} className='Kasa-logo' alt='logo' />
-      <NavLink to="/" className='header__link'>Accueil</NavLink>
-      <NavLink to="/infos" className='header__link'>A propos</NavLink>
+      <div className="header__links">
+        <NavLink to="/" className='header__link'>Accueil</NavLink>
+        <NavLink to="/infos" className='header__link'>A propos</NavLink>
+      </div>
     </header>
   )
 }

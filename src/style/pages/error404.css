@@ -1,3 +1,22 @@
+@media (max-width: 600px) {
+  .error-page img {
+    width: 12rem;
+    margin: 10rem 0 0;
+  }
+  .error-page p {
+    font-size: 20px;
+    width: 16rem;
+  }
+}
+@media (min-width: 600px) {
+  .error-page img {
+    width: 25rem;
+    margin: 3rem 0;
+  }
+  .error-page p {
+    font-size: 24px;
+  }
+}
 .error-page {
   color: red;
   display: flex;
@@ -5,18 +24,14 @@
   justify-content: center;
   flex-direction: column;
 }
-.error-page img {
-  margin: 3rem 0;
-  width: 25rem;
-}
 .error-page p {
-  font-size: 24px;
   letter-spacing: 0.1rem;
   margin-bottom: 10rem;
 }
 .error-page__link {
   color: red;
   text-decoration: none;
+  margin-bottom: 5rem;
 }
 .error-page__link:hover {
   text-decoration: underline;

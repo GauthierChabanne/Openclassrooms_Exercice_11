@@ -1,0 +1,21 @@
+@media (max-width: 600px) {
+  .dropdowns {
+      margin: 1rem 2rem 3rem 0;
+    }
+}
+
+@media (min-width: 600px) {
+  .dropdowns {
+      margin: 0 8rem;
+  }
+}
+
+.dropdowns {
+
+  & .dropdown {
+
+    &__infosPart {
+        height: fit-content;
+    }
+  }
+}
