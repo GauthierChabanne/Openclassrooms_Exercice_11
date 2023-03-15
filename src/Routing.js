@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
-import Home from '../pages/Home';
-import Infos from '../pages/Infos';
-import AppartementView from '../pages/AppartementView';
-import Error404 from '../pages/Error404';
+import Home from './pages/Home';
+import Infos from './pages/Infos';
+import AppartementView from './pages/AppartementView';
+import Error404 from './pages/Error404';
 
 function Routing(){
   return(

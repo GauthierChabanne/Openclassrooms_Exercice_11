@@ -5,14 +5,17 @@ import StarRating from '../components/StarRating'
 import Dropdown from '../components/Dropdown'
 import React from "react";
 import '../style/pages/appartementView.css'
-
-const appartementList = require('../data/appartementList.json')
+import appartementList from '../data/appartementList.json'
+import Error404 from './Error404';
 
 function AppartementView () {
   const {appartementId} = useParams()
-  const appartement = appartementList.find((appartement) => appartement.id === appartementId)
 
-  return(
+  const appartement = appartementList.find((appartement) => appartement.id === appartementId)
+  if(appartement === undefined){
+    return(<Error404 />)
+  } else {
+    return(
     <main className='cardInfos'>
       <Carousel
         title={appartement.title}
@@ -59,6 +62,7 @@ function AppartementView () {
       </div>
     </main>
   )
+  }
 }
 
 export default AppartementView
